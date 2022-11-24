@@ -1,0 +1,15 @@
+.cnBarRoot{
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid red;
+    background-color: white;
+}
+
+.cnBarWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    max-width: 1080px;
+    margin: auto;
+}
