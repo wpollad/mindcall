@@ -1,0 +1,9 @@
+.cnCommentsRoot{
+    display: flex;
+    align-items: center;
+}
+
+.cnCommentsName{
+    font-weight: 600;
+    margin-right: 5px;
+}
