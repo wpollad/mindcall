@@ -1,8 +1,9 @@
 .cnBarRoot{
-    height: 60px;
+    height: 6vh;
+    min-height: 40px;
     width: 100%;
-    border-bottom: 1px solid red;
-    background-color: white;
+    border-bottom: 1px solid #3d3657;
+    background-color: #9e86dc;
 }
 
 .cnBarWrapper{
@@ -12,4 +13,8 @@
     height: 100%;
     max-width: 1080px;
     margin: auto;
+}
+
+.cnBarLogo{
+    margin-left: 10px;
 }

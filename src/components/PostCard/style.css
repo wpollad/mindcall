@@ -1,57 +1,42 @@
 .cnPostCardRoot{
+    margin-top: max(3vh, 30px);
     display: flex;
     flex-direction: column;
-    width: 600px;
-    border: 1px solid hotpink;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    width: 848px;
+    max-width: 80vw;
+    background-color: #f5d5ed;
+    border: 1px solid #3d3657;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .cnPostCardHeader{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    height: 60px;
+    height: 6vh;
+    min-height: 40px;
     padding-left: 20px;
-    background-color: white;
+    background-color: #9e86dc;
 }
 
 .cnPostCardImg{
-    height: 300px;
-    width: 100%;
+    width: 848px;
+    height: 480px;
+    max-width: 80vw;
+    max-height: 45vw;
 }
 
-.cnPostCardButtons{
-    display: flex;
+.cnPostCardLikeIcon{
     padding: 10px;
+    cursor: pointer;
 }
 
 .cnPostCardLikes{
     font-size: 14px;
     font-weight: 600;
-    padding: 10px;
+    padding: 0 0 10px 10px;
 }
 
-.cnPostCardComments{
-    display: flex;
-    flex-direction: column;
-    padding: 0 10px 10px 10px;
-}
-
-.cnPostCardTextArea{
-    border: none;
-    background-color: red;
-    padding: 10px;
-    outline: none;
-    resize: none;
-}
-
-.cnPostCardLikeIcon{
-    margin-right: 10px;
-    cursor: pointer;
-}
-
-.cnPostCardCommentIcon{
-    cursor: pointer;
-}
 
 

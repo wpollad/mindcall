@@ -9,7 +9,7 @@ const bar = ({
     return(
         <div className="cnBarRoot">
             <div className="cnBarWrapper">
-                <span>mindcall</span>
+                <span className="cnBarLogo">mindcall</span>
                 <UserBadge nickName={nickName} avatarUrl={avatarUrl} id={id}></UserBadge>
             </div>
         </div>
