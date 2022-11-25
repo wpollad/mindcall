@@ -4,8 +4,9 @@
     flex-direction: column;
     width: 848px;
     max-width: 80vw;
-    background-color: #f5d5ed;
-    border: 1px solid #3d3657;
+    border-radius: 15px;
+    background-color: #c7b4ec;
+    border: 2px solid #3d3657;
     margin-left: auto;
     margin-right: auto;
 }
@@ -17,7 +18,6 @@
     height: 6vh;
     min-height: 40px;
     padding-left: 20px;
-    background-color: #9e86dc;
 }
 
 .cnPostCardImg{
@@ -25,6 +25,7 @@
     height: 480px;
     max-width: 80vw;
     max-height: 45vw;
+    border-radius: 15px;
 }
 
 .cnPostCardLikeIcon{
@@ -37,6 +38,7 @@
     font-weight: 600;
     padding: 0 0 10px 10px;
 }
+
 
 
 

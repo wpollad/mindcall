@@ -1,7 +1,10 @@
+
+import Logo from "../Logo";
+import NewArtIcon from "../NewArtIcon";
 import UserBadge from "../UserBadge";
 import "./style.css";
 
-const bar = ({
+const Bar = ({
     nickName,
     avatarUrl,
     id,
@@ -9,11 +12,12 @@ const bar = ({
     return(
         <div className="cnBarRoot">
             <div className="cnBarWrapper">
-                <span className="cnBarLogo">mindcall</span>
+                <Logo />
+                <NewArtIcon />
                 <UserBadge nickName={nickName} avatarUrl={avatarUrl} id={id}></UserBadge>
             </div>
         </div>
     );
 };
 
-export default bar;
+export default Bar;

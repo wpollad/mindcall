@@ -1,6 +1,8 @@
 .cnUserBadgeRoot{
     margin-right: 10px;
     display: flex;
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
 }
 
@@ -12,15 +14,15 @@
 }
 
 .cnUserBadgePlaceholder {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     margin-right: 10px;
     border-radius: 50%;
     background-color: #ffebae;
 }
 
 .cnUsenBadgeName{
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: bold;
     color: #3d3657;
 }
