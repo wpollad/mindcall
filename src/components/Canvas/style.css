@@ -1,7 +1,6 @@
 .cnCanvasRoot{
-    height: 100vh;
-    width: 100vw;
-    backdrop-filter: blur(1000px);
+    height: 100%;
+    width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     position: fixed;
     top: 0;
@@ -22,32 +21,31 @@
 }
 
 .cnCanvasContent{
-    height: min(750px, 40vw);
-    width: min(1200px, 80vw);
+    height: calc(70vw / 16 * 10);
+    width: 70vw;
     border-radius: 12px;
     position: absolute;
     top: 0;
     background-color: white;
     transform: scale(0.5);
     transition: 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
+
 }
 
 .cnCanvasContent.active{
-    top: calc((100vh - min(750px, 40vw)) / 2);
+    top: calc((100vh - 70vw / 16 * 10) / 2);
     opacity: 1;
     transform: scale(1);
 }
 
 .cnCanvasHeader{
-    height: calc(min(750px, 40vw) / 10);
+    height: calc(70vw / 16);
     width: 100%;
     border-radius: 10px 10px 0 0;
     background-color: #3d3657;
 }
-.cnCanvasMain{
-    height: calc(min(750px, 40vw) - min(750px, 40vw) / 10);
-    width: 100%;
-    border-radius: 0 0 10px 10px;
-    background-color: #ffebae;
-}
+
