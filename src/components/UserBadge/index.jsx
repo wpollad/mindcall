@@ -13,7 +13,7 @@ const UserBadge = ({
     };
     return (
         <div className="cnUserBadgeRoot" onClick={onUserBadgeClick}>
-            {avatarUrl ? <img src={avatarUrl} alt="logo" className="cnUserBadgeAvatar"  /> : <div className="cnUserBadgePlaceholder" />}
+            {/* {avatarUrl ? <img src={avatarUrl} alt="logo" className="cnUserBadgeAvatar"  /> : <div className="cnUserBadgePlaceholder" />} */}
             <span className="cnUsenBadgeName">{nickName}</span>
         </div>
     );
