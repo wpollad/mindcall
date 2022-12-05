@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/mindcall/static/css/main.a865af89.css",
-    "main.js": "/mindcall/static/js/main.8ef4d352.js",
-    "static/js/787.bf03685c.chunk.js": "/mindcall/static/js/787.bf03685c.chunk.js",
-    "index.html": "/mindcall/index.html",
-    "main.a865af89.css.map": "/mindcall/static/css/main.a865af89.css.map",
-    "main.8ef4d352.js.map": "/mindcall/static/js/main.8ef4d352.js.map",
-    "787.bf03685c.chunk.js.map": "/mindcall/static/js/787.bf03685c.chunk.js.map"
+    "main.css": "/mindcall/main/static/css/main.c82a986a.css",
+    "main.js": "/mindcall/main/static/js/main.c4cd8aa1.js",
+    "static/js/787.bf03685c.chunk.js": "/mindcall/main/static/js/787.bf03685c.chunk.js",
+    "index.html": "/mindcall/main/index.html",
+    "main.c82a986a.css.map": "/mindcall/main/static/css/main.c82a986a.css.map",
+    "main.c4cd8aa1.js.map": "/mindcall/main/static/js/main.c4cd8aa1.js.map",
+    "787.bf03685c.chunk.js.map": "/mindcall/main/static/js/787.bf03685c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a865af89.css",
-    "static/js/main.8ef4d352.js"
+    "static/css/main.c82a986a.css",
+    "static/js/main.c4cd8aa1.js"
   ]
 }
