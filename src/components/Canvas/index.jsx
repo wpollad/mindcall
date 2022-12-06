@@ -6,6 +6,8 @@ const Canvas = ({
     setActive,
 }
 ) => {
+    //localStorage.clear();
+
     const canvasRef = useRef(null);
     const ctx = useRef(null);
 
@@ -45,14 +47,15 @@ const Canvas = ({
         }
     }, [lastPosition, mouseDown, setPosition])
 
-    const download = async () => {
+    const download = () => {
         const image = canvasRef.current.toDataURL(`image/png`);
-        const blob = await (await fetch(image)).blob();
-        const blobURL = URL.createObjectURL(blob);
-        const link = document.createElement("a");
-        link.href = blobURL;
-        link.download = "image.png";
-        link.click();
+        localStorage.setItem(`${localStorage.length}`, image);
+        // const blob = await (await fetch(image)).blob();
+        // const blobURL = URL.createObjectURL(blob);
+        // const link = document.createElement("a");
+        // link.href = blobURL;
+        // link.download = "image.png";
+        // link.click();
     }
 
     const clear = () => {
