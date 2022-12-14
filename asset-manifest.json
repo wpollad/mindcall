@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/mindcall/static/css/main.c82a986a.css",
-    "main.js": "/mindcall/static/js/main.e7f38cfd.js",
+    "main.css": "/mindcall/static/css/main.27af04c7.css",
+    "main.js": "/mindcall/static/js/main.ab4f15d5.js",
     "static/js/787.bf03685c.chunk.js": "/mindcall/static/js/787.bf03685c.chunk.js",
     "index.html": "/mindcall/index.html",
-    "main.c82a986a.css.map": "/mindcall/static/css/main.c82a986a.css.map",
-    "main.e7f38cfd.js.map": "/mindcall/static/js/main.e7f38cfd.js.map",
+    "main.27af04c7.css.map": "/mindcall/static/css/main.27af04c7.css.map",
+    "main.ab4f15d5.js.map": "/mindcall/static/js/main.ab4f15d5.js.map",
     "787.bf03685c.chunk.js.map": "/mindcall/static/js/787.bf03685c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c82a986a.css",
-    "static/js/main.e7f38cfd.js"
+    "static/css/main.27af04c7.css",
+    "static/js/main.ab4f15d5.js"
   ]
 }
