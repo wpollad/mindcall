@@ -18,12 +18,12 @@ const PostCard = ({
             <div>
                 <img src={imgUrl} alt="no img" className="cnPostCardImg" />
             </div>
-            <div>
+            {/* <div>
                 <i className={`${isLikedByYou ? `fas` : `far`} fa-heart cnPostCardLikeIcon`}></i>
                 <div className="cnPostCardLikes">
                     {`likes: ${likes}`}
                 </div>
-            </div>
+            </div> */}
         </div>
 
     );

@@ -4,7 +4,7 @@ import PostsFeed from "../../components/PostsFeed";
 
 const MainPage = () => {
     return (
-        <Layout nickName="User" id={1}>
+        <Layout nickName="User">
             <PostsFeed />
         </Layout>
     );

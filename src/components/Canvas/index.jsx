@@ -7,6 +7,10 @@ const Canvas = ({
 }
 ) => {
     //localStorage.clear();
+    // window.onstorage = event => {
+    //     console.log("localstorage change");
+    // }
+
 
     const canvasRef = useRef(null);
     const ctx = useRef(null);
@@ -50,6 +54,7 @@ const Canvas = ({
     const download = () => {
         const image = canvasRef.current.toDataURL(`image/png`);
         localStorage.setItem(`${localStorage.length}`, image);
+        window.location.reload();
         // const blob = await (await fetch(image)).blob();
         // const blobURL = URL.createObjectURL(blob);
         // const link = document.createElement("a");
@@ -95,7 +100,6 @@ const Canvas = ({
             return null;
         }
     }
-
 
     return(
         <div className={active ? "cnCanvasRoot active" : "cnCanvasRoot"}>

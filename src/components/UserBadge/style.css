@@ -6,21 +6,6 @@
     cursor: pointer;
 }
 
-.cnUserBadgeAvatar {
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
-    border-radius: 50%;
-}
-
-.cnUserBadgePlaceholder {
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
-    border-radius: 50%;
-    background-color: #ffebae;
-}
-
 .cnUsenBadgeName{
     font-size: 20px;
     font-weight: bold;

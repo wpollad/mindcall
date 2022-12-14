@@ -4,8 +4,10 @@ const UserBadge = ({
     nickName,
 }) => {
     return (
+        <>
             <span className="cnUsenBadgeName">{nickName}</span>
-
+        </>
+            
     );
 };
 

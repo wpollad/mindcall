@@ -3,7 +3,7 @@ import "./style.css"
 const Logo = () => {
 
     return(
-        <div className="cnLogoText">
+        <div className="cnLogoText" >
             mindcall
         </div>
     );

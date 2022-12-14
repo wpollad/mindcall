@@ -14,7 +14,7 @@ const Bar = ({
             <div className="cnBarWrapper">
                 <Logo />
                 <NewArtIcon />
-                <UserBadge nickName={nickName} avatarUrl={avatarUrl} id={id}></UserBadge>
+                <UserBadge nickName={nickName}></UserBadge>
             </div>
         </div>
     );
